@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859">
+    <meta name="Tu-Bİ E-ticaret" content="E-ticaret">
+    <meta name="Elif Tuba Korkmaz" content="Elif Tuba, etubasavli@gmail.com"> 
+    <meta name="E-ticaret" content="E-ticaret, kıyafet, satın alma, alisveris, giyim, elektronik, satis">
+    <title>Tu-lil E-ticaret</title>
+
+    <!-- !AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- !Font Awesome -->
+    <script src="https://kit.fontawesome.com/136a4e8ae3.js" crossorigin="anonymous"></script>
+
+    <!-- !Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- !External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- !Nav Bar Start-->
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg sosyalmedya bg-body-secondary">
+            <div class="container-fluid">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +90 543 110 00 00
+                </p>
+                </li>
+                <li class="nav-item">
+                  <p>
+                    <i class="fa-regular fa-envelope"></i>
+                    etubasavli@gmail.com
+                  </p>
+                </li>
+              </ul>
+              <div class="collapse navbar-collapse justify-content-end navbar-expand-lg sosyal" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="https://tr-tr.facebook.com/" target="_blank">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://twitter.com/?lang=tr" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://tr.linkedin.com/" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://github.com/" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://mail.google.com/mail/" target="_blank">
+                      <i class="fa-brands fa-google"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- !Navbar Orta Kısım -->
+        <nav class="navbar bg-body-tertiary navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" target="_blank">
+                <img src="img/logo.jpg" alt="E-ticaret" width="300" height="150">
+              </a>
+              <select class="form-select w-auto bg-body-secondary border-warning bg-opacity-50 rounded-0" aria-label="Default select example">
+                <option selected>Ülke Seçiniz : </option>
+                <option value="1">Türkiye</option>
+                <option value="2">USA</option>
+                <option value="3">Fransa</option>
+              </select>
+              <select class="form-select w-auto bg-body-secondary border-warning bg-opacity-50 rounded-0" aria-label="Default select example">
+                <option selected>Dil Seçiniz : </option>
+                <option value="1">Türkçe</option>
+                <option value="2">İngilizce</option>
+                <option value="3">Fransızca</option>
+              </select>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#" target="_blank">Hesap</a>    
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-star"></i>
+                        <a href="favorilerim.html" target="_blank">Favorilerim</a> 
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <a href="sepet.html" target="_blank">Sepetim</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-lock"></i>
+                        <a href="login.html" target="_blank">Giriş Yap</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <a href="#" target="_blank">Çıkış Yap</a>
+                    </li>
+                </ul>
+            </div> 
+            </div>
+        </nav>
+        <hr>
+        <!-- !Navbar Son Kısım -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse ms-5 fs-5" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-warning" aria-current="page" href="index.html" target="_blank">Anasayfa</a>
+                  </li>
+                  </li>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" target="_blank">
+                      Alışveriş
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" target="_blank">Kadın</a></li>
+                      <li><a class="dropdown-item" href="#" target="_blank">Erkek</a></li>
+                    </ul>
+                  </li>
+                  </li>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" target="_blank">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" target="_blank">Önerileriniz</a></li>
+                      <li><a class="dropdown-item" href="#" target="_blank">Soru-Cevap</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link son" aria-current="page" href="contact.html" target="_blank">İletişim</a>
+                  </li>
+                </ul>
+              </div>
+              <form class="d-flex text-end w-50 bg-body-secondary" role="search">
+                <input class="form-control fs-5 bg-body-secondary" type="search" placeholder="Aradığınız ürün, kategori veya markayı yazınız." aria-label="Search">
+                <button class="btn border-0 fs-5" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+          </nav>
+      </div>
+          <hr>
+    </header>
+    <!-- !Nav Bar Bitiş -->
+
+    <!-- !Content Sepet -->
+    <div class="container-fluid">
+      <button type="button" class="btn btn-warning anasayfa text-white me-2 rounded-0">Anasayfa</button>
+      <p class="d-inline-flex mt-3 mb-5">Alışveriş Sepeti</p>
+      <div class="row">
+      <table class="table border-end border-start cartlist"> 
+        <thead>
+          <tr class="text-white bg-warning">
+            <th scope="col-xl-4">Ürün</th>
+            <th scope="col-xl-4" class="text-center">Fiyat</th>
+            <th scope="col-xl-4" class="text-center">Adet</th>
+            <th scope="col-xl-4">Toplam</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="w-50">
+              <p class="fs-6 ms-4 fw-medium"> 
+                <img src="img/elbise.jpg" alt="elbise" width="150" height="200" class="me-4">
+                Bayan Yeşil Desenli Elbise
+              </p>
+            </th>
+            <td>
+              <p class="satır text-center satır1">420,00 TL</p>  
+            </td>
+            <td>
+              <div>
+              <p class="satır text-center">
+                <button type="button" onclick="arttir()" value="+" class="btn bg-secondary-subtle rounded-0">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <input type="button" value="0" class="w-25" id="sonuc">
+                <button type="button" onclick="azalt()" value="-" class="btn bg-secondary-subtle rounded-0">
+                  <i class="fa-solid fa-minus"></i>
+                </button>
+              </p>
+              </div>
+            </td>
+            <td>
+              <p class="satır text-center fw-bold text-warning fs-5">
+                <p class="toplam1"></p>
+                <button type="button" class="btn bg-secondary-subtle ms-5 rounded-0 text-white">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <p class="fs-6 ms-4 fw-medium">
+              <img src="img/gömlek.jpg" alt="gömlek" width="150" height="200" class="me-4">
+              Erkek Gömlek
+              </p>
+            </th>
+            <td>
+              <p class="satır text-center">599,00 TL</p>
+            </td>
+            <td>
+              <div>
+                <p class="satır text-center">
+                  <button type="button" onclick="arttirma()" value="+" class="btn bg-secondary-subtle rounded-0">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                  <input type="button" value="0" class="w-25" id="sonuc2">
+                  <button type="button" onclick="azaltma()" value="-" class="btn bg-secondary-subtle rounded-0">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                </p>
+              </div>
+            </td>
+            <td>
+              <p class="satır text-center fw-bold text-warning fs-5">
+                <button type="button" class="btn bg-secondary-subtle ms-5 rounded-0 text-white">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <p class="fs-6 ms-4 fw-medium">
+              <img src="img/ayakkabı.png" alt="ayakkabı" width="150" height="200" class="me-4">
+                Koşu Ayakkabısı
+              </p>
+            </th>
+            <td>
+              <p class="satır text-center">2.500,00 TL</p>
+            </td>
+            <td>
+              <div>
+                <p class="satır text-center">
+                  <button type="button" onclick="art()" value="+" class="btn bg-secondary-subtle rounded-0">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                  <input type="button" value="0" class="w-25" id="sonuc3">
+                  <button type="button" onclick="azal()" value="-" class="btn bg-secondary-subtle rounded-0">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                </p>
+              </div>
+            </td>
+            <td>
+              <p class="satır text-center fw-bold text-warning fs-5">
+                <button type="button" class="btn bg-secondary-subtle ms-5 rounded-0 text-white">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+
+    <!-- !Sepet tablosunun devamı -->
+    <div class="container-fluid sepet mt-4">
+      <h5 class="fw-bold">Bundan sonra ne yapmak istersin?</h5>
+      <p>Kullanmak istedğiniz bir indirim kodunuz, hediye kartınızın olup olmadığını veya nakliye ve vergi ile ilgili olarak seçim yapınız.</p>
+    </div>
+
+    <!-- !Checkbox -->
+     <div class="row ms-5">
+      <div class="col-xl-6 mt-4 check mb-5">
+        <input type="Checkbox" name="" class="mb-2">
+        <label>Kupon Kodunu Kullanma</label> <br>
+        
+        <input type="Checkbox" name="" class="mb-2"> 
+        <label>Hediye Kartını Kullanma</label> <br>
+
+        <input type="Checkbox" name="" class="mb-4">
+        <label>Nakliye & Vergi</label> <br>
+		    
+      <div class="box">
+        <label class="ms-3">Ülke Seçiniz : </label>
+        <label>Bölge / Eyalet : </label>
+        <label>Posta Kodu : </label> <br>
+      </div>
+
+      <div class="box">
+        <select class="form-select shadow-none rounded-0 w-25 bg-secondary-subtle h-50" aria-label="Default select example">
+          <option value="1">Türkiye</option>
+          <option value="2">USA</option>
+          <option value="3">Fransa</option>
+        </select>
+        <select class="form-select shadow-none rounded-0 w-25 bg-secondary-subtle h-50" aria-label="Default select example">
+          <option value="1">İstanbul</option>
+          <option value="2">NewYork</option>
+          <option value="3">Paris</option>
+        </select>
+        <input type="text" class="h-50"> <br>
+      </div>
+
+        <button type="button" class="btn btn-warning mt-3 text-white me-4 rounded-0">Fiyat Al</button>
+        <button type="button" class="btn btn-warning mt-3 text-white rounded-0">Devam Et</button>
+      </div>
+
+      <div class="col-xl-6 check mt-4 mb-5">
+        <p class="bg-secondary-subtle p-1 mb-2 border-0">Ürünlerin toplam fiyatı <span style="margin-left: 240px;">2.500,00 TL</span> </p> 
+        <p class="bg-secondary-subtle p-1 mb-2 border-0">Vergi <span style="margin-left: 375px;">100,00 TL</span> </p>
+        <p class="bg-secondary-subtle p-1 mb-2 border-0">Kargo Ücreti <span style="margin-left: 340px;">0,00 TL</span> </p>
+        <p class="bg-secondary-subtle p-1 mb-2 border-0">Toplam Ücret <span style="margin-left: 306px;">2.600,00 TL</span> </p>
+
+        <button type="button" class="btn btn-warning mt-4 text-white me-4 mb-1 rounded-0">Güncelle</button>
+        <button type="button" class="btn btn-warning mt-4 text-white mb-1 rounded-0">Hesapla</button>
+      </div>
+     </div>
+
+    <!-- !Footer -->
+    <footer>
+      <div class="container-fluid m-0 p-0">
+        <div class="card text-center bg-body-secondary rounded-0">
+          <div class="card-header">
+           <div class="row align-items-center logo">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 m-3">
+              <img src="img/logo.jpg" alt="eticaret" width="240" height="140">
+              <p>Tu-lil E-ticaret</p>
+            </div>
+            <div class="col-xl-1">
+              <img src="img/shop1.jpg" alt="shop1" width="120" height="80">
+              <p>Tu-lil E-ticaret</p>
+            </div>
+            <div class="col-xl-1"> 
+              <img src="img/shop2.jpg" alt="shop1" width="120" height="80">
+              <p>Tu-lil E-ticaret</p>
+            </div>
+            <div class="col-xl-1">
+              <img src="img/shop3.jpg" alt="shop1" width="120" height="80">
+              <p>Tu-lil E-ticaret</p>
+            </div>
+            <div class="col-xl-1">
+              <img src="img/shop4.jpg" alt="shop1" width="120" height="80">
+              <p>Tu-lil E-ticaret</p>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <img src="img/world.png" alt="world" width="280" height="180">
+            </div>
+           </div>
+          </div>
+          <div class="row m-3">
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
+              <strong class="fs-5">Hizmetlerimiz</strong>
+              <ul class="list-group">
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Canlı Yardım</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Bize Ulaşın</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Sipariş Durumu</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Nasıl İade Edebilirim</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Sıkça Sorulan Sorular</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
+              <strong class="fs-5">Hızlı Alışveriş</strong>
+              <ul class="list-group">
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">T-shirt</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Erkek</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Kadın</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Hediye Kartı</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Ayakkabı</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
+              <strong class="fs-5">Politikalar</strong>
+              <ul class="list-group">
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Kullanım Şartları</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Gizlilik Politikası</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Geri Ödeme Politikası</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Fatura Sistemi</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Kart Sistemi</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
+              <strong class="fs-5">Alışveriş Hakkında</strong>
+              <ul class="list-group">
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Biz Kimiz</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Kariyer</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">İletişim</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Ortaklık</a>
+                </li>
+                <li class="list-group-item border-0 bg-body-secondary">
+                  <a href="#" class="link-dark link-underline-opacity-0" target="_blank">Telif Hakkı</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 text-md-center">
+              <h4>Alışveriş Hakkında</h4>
+              <div class="input-group w-75 ms-5 mt-4">
+                <input type="email" class="form-control" placeholder="E-mail adresiniz : " aria-label="E-mail adresiniz : " aria-describedby="button-addon2">
+                <button class="btn bg-warning border-warning bg-opacity-50" type="button" id="button-addon2">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <p class="mt-4">Sitemizden en son güncellemeleri alın ve kendinizi güncelleyin.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-body-secondary d-flex justify-content-between bg-dark-subtle">
+            <p>Telif Hakkı © 2023 Tu-lil Anonim Şirketi her hakkı saklıdır.</p>
+            <p>Dizayn <ins class="text-warning">Elif Tuba Korkmaz</ins>
+              <i class="fa-solid fa-chevron-up bg-warning ms-4 fs-2" style="color: #fafafa;"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+      <!-- !AOS Library -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+      <!-- !Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+      <!-- !JS -->
+      <script src="app.js"></script>
+</body>
+</html>

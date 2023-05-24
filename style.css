@@ -1,0 +1,293 @@
+/* !Sıfırlamalar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+/* !Navbar Start ve Orta Kısım*/
+
+.sosyalmedya {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sosyalmedya ul,
+.menu ul{
+    display: inline-flex;
+    list-style-type: none; 
+}
+
+.sosyalmedya ul li {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.menu ul li {
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.sosyalmedya ul li:hover,
+.sosyalmedya ul a:hover,
+.menu ul li a:hover,
+.navbar-nav .nav-item .son:hover{
+    color: chocolate;
+    border-bottom: 1px solid black;
+}
+
+.sosyalmedya a{
+    color: black;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar select {
+    padding-right: 80px;
+}
+
+.menu {
+    font-size: 15px;
+}
+
+/* !Side bar */
+
+/* !Content */
+
+.row .col-4 .card img {
+    height: 400px;
+}
+
+/* !Carousel */
+
+.carousel {
+    margin-left: 13%;
+}
+
+/* !Slider */
+
+/* !Footer */
+
+/* !Contact */
+
+.row form .form {
+    width: 37%;
+    margin-right: 15px;
+}
+
+.row form .form1 {
+    width: 36%;
+}
+
+.row form .contact {
+    display: flex;
+    margin-left: 80%;
+}
+
+.iletisim .contact2 li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 6%;
+}
+
+.iletisim .contact2 li a{
+    color: rgb(134, 129, 129);
+    font-size: 25px;
+}
+
+.iletisim .contact2 li a:hover{
+    border-bottom: 1px solid black;
+    color: chocolate;
+}
+
+/* !Sepet */
+
+.row table {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.container-fluid .anasayfa {
+    margin-left: 9%;
+}
+
+.row .table button .btn {
+    width: 15%;
+}
+
+.row .table .satır {
+    margin-top: 80px;
+}
+
+.row .table .satır input{
+    width: 15%;
+    height: 33px;
+    text-align: center;
+}
+
+.sepet {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* !Checkbox */
+
+.row .check {
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding: 3%;
+    width: 40%;
+    height: 50%;
+}
+
+.row .check p {
+    border: 1px solid gray;
+}
+
+.row .box {
+    display: inline-flex;
+}
+
+.row .box label,
+.row .box select {
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+/* !Giriş ve Kayıt Olma */
+
+.row .giris {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.row .kayit {
+    text-align: center;
+}
+
+.row .veya {
+    width: 60px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 100%;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5%;
+}
+
+/* !Responsive */
+
+@media screen and (max-width: 1200px) {
+    .row .check {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .card-header .logo img,
+    .card-header .logo p {
+        display: none;
+    }
+
+    .menu ul {
+        display: block;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    
+    .navbar form {
+       margin-right: 50px;
+    }
+
+    .sepet1 button {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .sosyal ul {
+        width: 100%;
+    }
+
+    .row .veya {
+        margin-left: 47%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .row .giris {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .sepet1 img {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
+
+    .container-fluid form {
+        justify-self: en;
+    }
+
+    .carousel-item img {
+        margin-left: 10%;
+    }
+
+    .card-header .logo img,
+    .card-header .logo p {
+        display: none;
+    }
+
+    .navreklam {
+        display: none;
+    }
+
+    .row .check {
+        width: 70%;
+    }
+
+    .cartlist button {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .kategori {
+        padding: 200px; 
+    }
+
+    .sepet1 button {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .cartlist img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .row .check {
+        width: 90%;
+    }
+}
